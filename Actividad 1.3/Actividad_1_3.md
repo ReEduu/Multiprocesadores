@@ -33,17 +33,12 @@ Al ejecutar el programa, obtenemos las siguientes impresiones en consola, con el
 
 En las siguientes gráficas se puede observar qué thread fue el primero en ejecutar una instrucción printf en cada una de las 15 ejecuciones. Cabe destacar que este código hace uso de OpenMP para su ejecución y la numeración de los threads empieza desde 0
 
-![Grafica 1](./Imagen1_3_1.png)
-
-![Grafica 2](./Imagen1_3_2.png)
-
-![Grafica 3](./Imagen1_3_3.png)
-
-![Grafica 4](./Imagen1_3_4.png)
-
-![Grafica 5](./Imagen1_3_5.png)
-
-![Grafica 6](./Imagen1_3_6.png)
+- ![Grafica 1](./Imagen1_3_1.png)
+- ![Grafica 2](./Imagen1_3_2.png)
+- ![Grafica 3](./Imagen1_3_3.png)
+- ![Grafica 4](./Imagen1_3_4.png)
+- ![Grafica 5](./Imagen1_3_5.png)
+- ![Grafica 6](./Imagen1_3_6.png)
 
 De estas gráficas se puede concluir que, como era de esperar, el orden en el que se liberan los threads es aleatorio, y depende del SO en su totalidad, aunque por alguna razón en las pruebas realizadas se observó que los threads en liberarse primero son threads con una numeración baja, esto se nota más en las últimas pruebas donde en ningún momento empieza primero un threads más allá del número 7, puede que simplemente sea la aleatoriedad y con más pruebas sean distintos los threads que empiezan primero. 
 

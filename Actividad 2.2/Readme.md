@@ -41,38 +41,6 @@ else{
 }
 ```
 
-``` C
-void assignImage(char* ptr,long ancho, long alto,unsigned char fotoB[][ancho], FILE *outputImage,char inv){
-int count = 0;
-if(inv == 0){
-  for(int i=0; i<alto;i++){
-    for(int j=0; j<ancho;j++){
-      ptr[count] = fotoB[i][j]; //b
-      ptr[count+1] = fotoB[i][j]; //g
-      ptr[count+2] = fotoB[i][j]; //r
-      count++;
-    }
-  }
-}
-else{
- for(int i=0; i<alto;i++){
-    for(int j=ancho; j>0;j--){
-      ptr[count] = fotoB[i][j]; //b
-      ptr[count+1] = fotoB[i][j]; //g
-      ptr[count+2] = fotoB[i][j]; //r
-      count++;
-    }
-  }
-}
- for (int i = 0; i < alto*ancho; ++i) {
-      fputc(ptr[i], outputImage);
-      fputc(ptr[i+1], outputImage);
-      fputc(ptr[i+2], outputImage);
-    }
-
-}
-```
-
 La siguiente función es la principal de este programa, ya que se encarga de realizar el efecto de blurring, para ello la función empieza calculando el tamaño del kerne, según el parametro que le pasemos, ademas, es necesario que ignore los pixeles de los bordes para poder aplicar correctamente el filtro sin salirse de la imagen. Ya con los datos, nos desplazamos por la imagen, multiplicando los elementos que se encuentran dentro del kernel para asignarle un valor al pixel central, el cual se guarda en su arreglo correspondiente para finalmente mandar a llamar la función anteriormente descrita
 
 ``` C

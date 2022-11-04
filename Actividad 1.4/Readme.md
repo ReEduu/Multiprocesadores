@@ -72,15 +72,15 @@ Para ginalizar el programa se imprime el valor de pi calculado y el tiempo
 
 Al ejecutar el programa, se muestra la siguiente información: 
 
-![Resultado](./Imagen1_4_1.png)
+![Resultado](./Imagen1_4_3.png)
 
 Cabe resaltar que el resultado siempre estará muy cercano a pi, aunque depende del numero de pasos
 
 Despues de ejecutar el programa 20 veces, se obtuvo la siguiente información ,en la gráfica se observa cómo se comporta el tiempo de ejecución según el numero de threads
 
-![Grafica 1](./Imagen1_4_2.png)
+![Grafica 1](./Imagen1_4_1.png)
 
-![Grafica 2](./Imagen1_4_3.png)
+![Grafica 2](./Imagen1_4_2.png)
 
 
 A partir de los resultados obtenidos podemos observar que el tiempo de ejecución fue disminuyendo entre más threads se usaran, sin embargo, a partir de los 150 threads, este tiempo se mantuvo casi constante, variando por menos de 1 segundo; fue con 600 threads que se obtuvo el mejor resultado, con tan sólo 8.608 segundos de ejecución, partir de ahí el tiempo de ejecución fue aumentando hasta llegar a 10.78 segundos con 890 threads, cantidad máxima de threads que permite el equipo, por lo que a pesar de que el tiempo de ejecución aumentó, en ningún momento llegó a los tiempos de ejecución obtenidos con pocos threads. 

@@ -29,9 +29,12 @@ En el código aquí mostrado, primero se definen el numero de threads, con la in
 
 Al ejecutar el programa, obtenemos las siguientes impresiones en consola, con el numero de thread ejecutando la instrucción
 
-![Resultado](./Imagen1_3_8.png)
+![Resultado](./Imagen2_2_1.png)
 
 En las siguientes gráficas se puede observar qué thread fue el primero en ejecutar una instrucción printf en cada una de las 15 ejecuciones. Cabe destacar que este código hace uso de OpenMP para su ejecución y la numeración de los threads empieza desde 0
+
+![Original 1](./7.bmp)
+![Original 1](./7.bmp)
 
 ![Grafica 1](./imgGrandeSinParallel.gif.gif)
 

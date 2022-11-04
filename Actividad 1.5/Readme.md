@@ -70,25 +70,25 @@ Como se mencionó, en esta actividad se utilizan tres programas distintos, sin e
   Para la parelizacion se hace uso de un sections, donde se manda a llamar a la funcion del metodo de Euler con sus parametros
   
   ``` C
-  t1= omp_get_wtime();
-   #pragma omp parallel
-{
-     #pragma omp sections
-    {
-       #pragma omp section
-         (void)iteracion(1666666,fptr);//20//2000900
-       #pragma omp section
-         (void)iteracion(1666666,fptr1);//200//2000400
-       #pragma omp section
-         (void)iteracion(1666666,fptr2);//2000//2000700
-       #pragma omp section
-         (void)iteracion(1666666,fptr3);//20000//2000800
-       #pragma omp section
-         (void)iteracion(1666666,fptr4);//200000//2000500
-       #pragma omp section
-         (void)iteracion(1666666,fptr5);//2000000//2000100
-   }
-}
+	  t1= omp_get_wtime();
+	   #pragma omp parallel
+	{
+	     #pragma omp sections
+	    {
+	       #pragma omp section
+		 (void)iteracion(1666666,fptr);//20//2000900
+	       #pragma omp section
+		 (void)iteracion(1666666,fptr1);//200//2000400
+	       #pragma omp section
+		 (void)iteracion(1666666,fptr2);//2000//2000700
+	       #pragma omp section
+		 (void)iteracion(1666666,fptr3);//20000//2000800
+	       #pragma omp section
+		 (void)iteracion(1666666,fptr4);//200000//2000500
+	       #pragma omp section
+		 (void)iteracion(1666666,fptr5);//2000000//2000100
+	   }
+	}
    
   ```
   
@@ -96,41 +96,41 @@ Como se mencionó, en esta actividad se utilizan tres programas distintos, sin e
   
   ``` C
   
-  t2= omp_get_wtime();
-   printf("tomo = (%lf) segundos\n",t2-t1); 
-   for(int i=0;i<N;i++){
-        fprintf(fptr, "%f\t %f\t  numero de thread:%d\n", t[i][0], w[i][0], 0);
-    }
+	  t2= omp_get_wtime();
+	   printf("tomo = (%lf) segundos\n",t2-t1); 
+	   for(int i=0;i<N;i++){
+		fprintf(fptr, "%f\t %f\t  numero de thread:%d\n", t[i][0], w[i][0], 0);
+	    }
 
-    for(int i=0;i<N;i++){
-        fprintf(fptr1, "%f\t %f\t  numero de thread:%d\n", t[i][1], w[i][1], 1);
-    }
+	    for(int i=0;i<N;i++){
+		fprintf(fptr1, "%f\t %f\t  numero de thread:%d\n", t[i][1], w[i][1], 1);
+	    }
 
-    for(int i=0;i<N;i++){
-        fprintf(fptr2, "%f\t %f\t  numero de thread:%d\n", t[i][2], w[i][2], 2);
-    }
+	    for(int i=0;i<N;i++){
+		fprintf(fptr2, "%f\t %f\t  numero de thread:%d\n", t[i][2], w[i][2], 2);
+	    }
 
-    for(int i=0;i<N;i++){
-        fprintf(fptr3, "%f\t %f\t  numero de thread:%d\n", t[i][3], w[i][3], 3);
-    }
+	    for(int i=0;i<N;i++){
+		fprintf(fptr3, "%f\t %f\t  numero de thread:%d\n", t[i][3], w[i][3], 3);
+	    }
 
-    for(int i=0;i<N;i++){
-        fprintf(fptr4, "%f\t %f\t  numero de thread:%d\n", t[i][4], w[i][4], 4);
-    }
+	    for(int i=0;i<N;i++){
+		fprintf(fptr4, "%f\t %f\t  numero de thread:%d\n", t[i][4], w[i][4], 4);
+	    }
 
-    for(int i=0;i<N;i++){
-        fprintf(fptr5, "%f\t %f\t  numero de thread:%d\n", t[i][5], w[i][5], 5);
-    }  
-  
-   fclose(fptr);
-   fclose(fptr1);
-   fclose(fptr2);
-   fclose(fptr3);
-   fclose(fptr4);
-   fclose(fptr5);
-   return (0);
-   
-   }
+	    for(int i=0;i<N;i++){
+		fprintf(fptr5, "%f\t %f\t  numero de thread:%d\n", t[i][5], w[i][5], 5);
+	    }  
+
+	   fclose(fptr);
+	   fclose(fptr1);
+	   fclose(fptr2);
+	   fclose(fptr3);
+	   fclose(fptr4);
+	   fclose(fptr5);
+	   return (0);
+
+	   }
 
   ```
 
@@ -161,12 +161,15 @@ La principal diferencia esta en la función que realiza el método de Euler, ya 
 Los resultados obtenidos por cada uno de los programas fueron los siguientes:
 
 - Programa 1
+
   ![Resultado 1](./Imagen1_5_1.png)}
   
 - Programa 2
+
   ![Resultado 2](./Imagen1_5_2.png)
   
 - Programa 3
+
   ![Resultado 3](./Imagen1_5_3.png)
 
 Como conclusión, se puede decir que los resultados cumplieron con lo esperado, ya que la cache es la memoria más rápida mientras que el disco dura la más lenta, asimismo, se puede observar que en operaciones la suma es la más rápida, lo cual tambien tiene sentido ya que seguramente se encuentra implementada en el procesador, en cambio las operaciones más lentas probadas fueron los logaritmos, con lo que se puede notar que el tipo de operación sí influye en el tiempo de ejecución, al menos en el caso del equipo con el que se realizaron las pruebas. 

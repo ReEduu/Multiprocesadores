@@ -43,7 +43,7 @@ En las siguientes gráficas se puede observar qué thread fue el primero en ejec
 
 ![Grafica 5](./Imagen1_3_5.png)
 
-<img src="./Imagen1_3_5.png" width="200" height="100">
+![Grafica 5](./Imagen1_3_6.png)
 
 De estas gráficas se puede concluir que, como era de esperar, el orden en el que se liberan los threads es aleatorio, y depende del SO en su totalidad, aunque por alguna razón en las pruebas realizadas se observó que los threads en liberarse primero son threads con una numeración baja, esto se nota más en las últimas pruebas donde en ningún momento empieza primero un threads más allá del número 7, puede que simplemente sea la aleatoriedad y con más pruebas sean distintos los threads que empiezan primero. 
 

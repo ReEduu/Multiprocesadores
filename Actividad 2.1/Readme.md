@@ -135,21 +135,20 @@ Para probar el código se utizo la imagen siguiente:
 
 Imagen 1
 
-![Original 1]./Imagen2_1_1.bmp)
+![Original 1]./7.bmp)
 
 Para mostar los resultados se ejecuto tres veces el programa
 
 Vertical
 
-![Grafica 1]./Imagen2_1_2.bmp)
+![Grafica 1]./Imagen2_1_1.bmp)
 
 Horizontal
 
-![Grafica 1]./Imagen2_1_3.bmp)
-
 ![Grafica 1]./Imagen2_1_2.bmp)
 
+Vertical y Horizontal
 
+![Grafica 1]./Imagen2_1_3.bmp)
 
-De las imagenes resultantes podemos notar que aquellas con parelización poseen bastante más ruido debido a la manera en la que se manejan los threds
-
+Como se puede observar, las imagenes aun cuentan con ruido a pesar de que se utilizo la clausula dynamic, por lo que los threads no se asignaron de la forma esperada

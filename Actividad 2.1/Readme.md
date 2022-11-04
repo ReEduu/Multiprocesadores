@@ -127,29 +127,28 @@ Para finalizar lo unico que se hace es mandar a llamar a las funciones dependien
 
 **Resultados**
 
-Al ejecutar el programa, se muestra en consola la información del tamaño de la imagen y el tiempo de ejecución. Asimismo, se guardan en la ubicacion correspondiente los archivos de salida
+Al ejecutar el programa, se muestra en consola la información del tamaño de la imagen y el tiempo de ejecución. Asimismo, se guardan en la ubicacion correspondiente el archivos de salida
 
-![Resultado](./Imagen2_2_1.png)
+![Resultado](./Imagen2_1_4.png)
 
-Para probar el código se utilizaron las siguientes imagenes
+Para probar el código se utizo la imagen siguiente:
 
 Imagen 1
 
-![Original 1](./7.bmp)
+![Original 1]./Imagen2_1_1.bmp)
 
-Imagen 2
+Para mostar los resultados se ejecuto tres veces el programa
 
-![Original 1](./8.bmp)
+Vertical
 
-El programa arrojo un total de 19 imagenes de salida, las cuales se unieron mediante una pagina web para realizar gifs, los resultados fueron los siguientes:
+![Grafica 1]./Imagen2_1_2.bmp)
 
-![Grafica 1](./imgGrandeSinParallel.gif.gif)
+Horizontal
 
-![Grafica 2](./imgGrandeConParallel.gif)
+![Grafica 1]./Imagen2_1_3.bmp)
 
-![Grafica 3](./imgPequeñaSinParallel.gif)
+![Grafica 1]./Imagen2_1_2.bmp)
 
-![Grafica 4](./imgPequeñaConParallel.gif)
 
 
 De las imagenes resultantes podemos notar que aquellas con parelización poseen bastante más ruido debido a la manera en la que se manejan los threds

@@ -136,9 +136,8 @@ Como se mencionó, en esta actividad se utilizan tres programas distintos, sin e
 
 - Velocidad del disco duro (programa 3): este programa funciona de manera casi idéntica que el segundo, calculando una derivada parcial por medio del método de Euler y haciendo uso de threads, la diferencia principal está en que en este programa se van escribiendo los resultados en archivos .txt y el tiempo se acaba de medir hasta que se acaban de escribir, con lo que se asegura que se este calculando la velocidad del disco duro
 
-	La principal diferencia esta en la función que realiza el método de Euler, ya que ahora en la misma función se manda a escribir en los archivos
-
-	  ``` C
+La principal diferencia esta en la función que realiza el método de Euler, ya que ahora en la misma función se manda a escribir en los archivos
+  ``` C
 	  void iteracion(int N, FILE *x)
 	{
 		printf("Numero de pasos:%d Atendido por thread:%d\n", N,omp_get_thread_num());
@@ -155,7 +154,7 @@ Como se mencionó, en esta actividad se utilizan tres programas distintos, sin e
 		  w=w+h*(w-(t*t)+1);
 		  fprintf(x, "%f\t %f \t numero de thread:%d\n", t+h, w,omp_get_thread_num());
 		 } }
-	  ```
+  ```
 	  
 **Resultados**
 

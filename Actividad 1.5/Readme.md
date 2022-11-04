@@ -4,9 +4,9 @@ En esta actividad se tiene como objetivo comparar las diferentes velocidades de 
 
 A continuación, se muestran los parámetros usados:
 
-- # Threads: 6
+- Numero de Threads: 6
 - Operaciones (usado en el programa 1): 9999996
-- # Operaciones / 6 (usado en los programas 2 y 3): 1666666
+- Numero de Operaciones / 6 (usado en los programas 2 y 3): 1666666
 
 
 **Códigos**
@@ -18,19 +18,19 @@ Como se mencionó, en esta actividad se utilizan tres programas distintos, sin e
   Se empiezan definiendo las librerias necesarias y declarando los arreglos donde se guardaran los resultados segun el numero de pasos y threads
   
   ``` C
-#include <stdio.h>
-#include <omp.h>
-#include <math.h>
-#define NUM_THREADS 6
+  #include <stdio.h>
+  #include <omp.h>
+  #include <math.h>
+  #define NUM_THREADS 6
 
-   FILE *fptr;
-   FILE *fptr1;
-   FILE *fptr2;
-   FILE *fptr3;
-   FILE *fptr4;
-   FILE *fptr5;
-   double t[1666666][6];
-   double w[1666666][6];
+     FILE *fptr;
+     FILE *fptr1;
+     FILE *fptr2;
+     FILE *fptr3;
+     FILE *fptr4;
+     FILE *fptr5;
+     double t[1666666][6];
+     double w[1666666][6];
   ```
 
 - Velocidad del disco duro (programa 3): este programa funciona de manera casi idéntica que el segundo, calculando una derivada parcial por medio del método de Euler y haciendo uso de threads, la diferencia principal está en que en este programa se van escribiendo los resultados en archivos .txt y el tiempo se acaba de medir hasta que se acaban de escribir, con lo que se asegura que se este calculando la velocidad del disco duro

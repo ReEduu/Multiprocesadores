@@ -136,26 +136,27 @@ Como se mencionó, en esta actividad se utilizan tres programas distintos, sin e
 
 - Velocidad del disco duro (programa 3): este programa funciona de manera casi idéntica que el segundo, calculando una derivada parcial por medio del método de Euler y haciendo uso de threads, la diferencia principal está en que en este programa se van escribiendo los resultados en archivos .txt y el tiempo se acaba de medir hasta que se acaban de escribir, con lo que se asegura que se este calculando la velocidad del disco duro
 
-La principal diferencia esta en la función que realiza el método de Euler, ya que ahora en la misma función se manda a escribir en los archivos
+	La principal diferencia esta en la función que realiza el método de Euler, ya que ahora en la misma función se manda a escribir en los archivos
 
-  ``` C
-  void iteracion(int N, FILE *x)
-{
-	printf("Numero de pasos:%d Atendido por thread:%d\n", N,omp_get_thread_num());
-	fprintf(x, "Datos que encuentra el metodo de Euler(variable ind.\t variable dep.\t numero de thread)\n");
-      double h,t,w,ab;
-      double w0=0.5,a=0,b=2;
-      int i;
-      w=w0;
-      fprintf(x, "%f\t %f\n", a, w);
-      for(i=0;i<N;i++){
-          h=(b-a)/N;
-          t=a+(h*i);
-          ab=t*t;
-          w=w+h*(w-(t*t)+1);
-          fprintf(x, "%f\t %f \t numero de thread:%d\n", t+h, w,omp_get_thread_num());
-         } }
-  ```
+	  ``` C
+	  void iteracion(int N, FILE *x)
+	{
+		printf("Numero de pasos:%d Atendido por thread:%d\n", N,omp_get_thread_num());
+		fprintf(x, "Datos que encuentra el metodo de Euler(variable ind.\t variable dep.\t numero de thread)\n");
+	      double h,t,w,ab;
+	      double w0=0.5,a=0,b=2;
+	      int i;
+	      w=w0;
+	      fprintf(x, "%f\t %f\n", a, w);
+	      for(i=0;i<N;i++){
+		  h=(b-a)/N;
+		  t=a+(h*i);
+		  ab=t*t;
+		  w=w+h*(w-(t*t)+1);
+		  fprintf(x, "%f\t %f \t numero de thread:%d\n", t+h, w,omp_get_thread_num());
+		 } }
+	  ```
+	  
 **Resultados**
 
 Los resultados obtenidos por cada uno de los programas fueron los siguientes:

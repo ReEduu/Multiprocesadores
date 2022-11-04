@@ -1,29 +1,44 @@
 # Actividad 2.2
 
-El siguiente código hace uso de OpenMP para realizar la ejecución de multiples instrucciones de manera paralela con el uso de threads. Este código se ejecutó con 3, 6, 9, 12, 15 y 18 threads, donde cada programa se ejecutó 15 veces, al finalizar el reporte se muestran las graficas, donde se muestra el primer thread en ejecutar una instruccion en cada ejecución del programa.
+Se desarrolló un programa en C, el cual tiene el objetivo de aplicarle el efecto de desenfoque con diferentes intensidades a un par de imágenes bmp de diferente tamaño, así como invertir la imagen en determinados resultados. Esto se debe realizar tanto de manera paralelizada como sin paralelización con el fin de comparar los resultados obtenidos 
 
 
 **Código**
 
-El código utilizado para esta actividad es bastante sencillo, pero primero hay que decir que practicamente todos los códigos mostrados en el repositorio hacen uso de OpenMP, por lo que siempre se incluira la libreria "omp.h" y los programas se compilarán con gcc -fopenmp nombre.c.  
+Sólo se comentará el código paralelizado, ya que en funcionamiento, este y el no paralelizado son practicamente iguales, ademas el código utilizado es similar al de la actividad 2.1 en mayor medida, el cual ya se explicó anteriormente por lo que sólo se describirá brevemente, enfocandose en los cambios y añadidos que presenta este código con respecto al anterior  
 
-En el código aquí mostrado, primero se definen el numero de threads, con la instrucción define que se muestra. Este numero de threads, será puesto con la instrucción omp_set_num_threads(NUM_THREADS). Finalmente en el bloque de código de #pragma omp parallel, se ejecutan las instrucciones de manera paralela. En este caso lo unico que se hace es mostrar el numero de thread que está ejecutando la instrucción en ese momento,  
+La primera función que se encuentra en el programa es la de assignImage, lo que hace es escribirle 
 
 ``` C
-    #include <stdio.h>
-    #include "omp.h"
-    #define NUM_THREADS 18
-    int main()
-    {
-        omp_set_num_threads(NUM_THREADS);
-        #pragma omp parallel
-        {
-            int ID = omp_get_thread_num();
-            printf("Procesadores(%d)",ID);
-            printf("Multiples(%d)",ID);
-            printf("en accion(%d) --- %d\n",ID);
-        }
+void assignImage(char* ptr,long ancho, long alto,unsigned char fotoB[][ancho], FILE *outputImage,char inv){
+int count = 0;
+if(inv == 0){
+  for(int i=0; i<alto;i++){
+    for(int j=0; j<ancho;j++){
+      ptr[count] = fotoB[i][j]; //b
+      ptr[count+1] = fotoB[i][j]; //g
+      ptr[count+2] = fotoB[i][j]; //r
+      count++;
     }
+  }
+}
+else{
+ for(int i=0; i<alto;i++){
+    for(int j=ancho; j>0;j--){
+      ptr[count] = fotoB[i][j]; //b
+      ptr[count+1] = fotoB[i][j]; //g
+      ptr[count+2] = fotoB[i][j]; //r
+      count++;
+    }
+  }
+}
+ for (int i = 0; i < alto*ancho; ++i) {
+      fputc(ptr[i], outputImage);
+      fputc(ptr[i+1], outputImage);
+      fputc(ptr[i+2], outputImage);
+    }
+
+}
 ```
 **Resultados**
 

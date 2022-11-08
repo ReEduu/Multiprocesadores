@@ -7,5 +7,5 @@ A continuación se explican los pasos que se siguieron
 
 Entramos a portal.azure.com e iniciamos sesión
 
-![Inicio de sesion](/imgs/Inicio_sesion.png)
+![Inicio de sesion](./imgs/Inicio_sesion.png)
 

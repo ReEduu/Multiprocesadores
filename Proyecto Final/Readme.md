@@ -5,3 +5,7 @@ A continuación se explican los pasos que se siguieron
 
 **Configuración de Azure**
 
+Entramos a portal.azure.com e iniciamos sesión
+
+![Inicio de sesion](/imgs/Inicio_sesion.png)
+

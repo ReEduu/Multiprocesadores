@@ -9,3 +9,6 @@ Entramos a portal.azure.com e iniciamos sesión
 
 ![Inicio de sesion](./imgs/Inicio_sesion.png)
 
+En mi caso estoy usando una cuenta educativa que me regala 100 dolares para usar 
+
+![Inicio de sesion 1](./imgs/Inicio_sesion_1.png)

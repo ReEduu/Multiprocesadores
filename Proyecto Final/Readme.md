@@ -47,8 +47,12 @@ A continuación se explican los pasos que se siguieron
   
 - Lo que sigue es elegir un disco duro en este caso es un SSD estandar de 30 GB. Damos click en el botón revisar y crear
 
-  ![SSH](./imgs/discos.png)
-  
+  ![SSH](./imgs/discos_1.png)
+
+- Nos pedirá validar los datos, si todo está correcto damos click en Crear
+
+  ![SSH](./imgs/validación.png)
+
 - Si la maquina virtual se creó de manerá correcta, despues de un tiempo aparecerá la siguiente pantalla
 
   ![SSH](./imgs/vm_creada.png)

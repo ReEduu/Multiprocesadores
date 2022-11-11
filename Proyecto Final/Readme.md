@@ -56,15 +56,17 @@ A continuación se explican los pasos que se siguieron
 - Si la maquina virtual se creó de manerá correcta, despues de un tiempo aparecerá la siguiente pantalla
 
   ![SSH](./imgs/vm_creada.png)
+ 
+**Conexión a la VM**
   
-- En el siguiente pasó se permite la conexión por medio de SSH, por lo que se habilita el puerto 22
+- Seleccionamos conectar --> Bastion. Ya que es una de las formas más sencillas de conectarse
 
-  ![SSH](./imgs/ssh.png)
+  ![SSH](./imgs/bastion_1.png)
   
-- En el siguiente pasó se permite la conexión por medio de SSH, por lo que se habilita el puerto 22
+- Si no tenemos ninguna instancia de Bastion creada entonces creamos una
 
-  ![SSH](./imgs/ssh.png)
+  ![SSH](./imgs/bastion.png)
   
-- En el siguiente pasó se permite la conexión por medio de SSH, por lo que se habilita el puerto 22
+- Esperamos a que se cree y nos podrénos conectar a la VM introduciendo usuario y contraseña
 
-  ![SSH](./imgs/ssh.png)
+  ![SSH](./imgs/bastion_connect.png)

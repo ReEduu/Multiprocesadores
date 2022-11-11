@@ -12,3 +12,7 @@ Entramos a portal.azure.com e iniciamos sesión
 En mi caso estoy usando una cuenta educativa que me regala 100 dolares para usar 
 
 ![Inicio de sesion 1](./imgs/Inicio_sesion_1.png)
+
+Una vez con la sesión iniciada la pantalla de inicio se ve de la siguiente manera
+
+![Pantalla inicio](./imgs/pantalla_inicio.png)

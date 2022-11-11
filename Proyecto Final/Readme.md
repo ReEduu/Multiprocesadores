@@ -6,10 +6,10 @@ A continuación se explican los pasos que se siguieron
 **Configuración de VM en Azure**
 
 - Entramos a portal.azure.com e iniciamos sesión
-  ![Inicio de sesion](./imgs/Inicio_sesion_1.png)
+  ![Inicio de sesion](./imgs/Inicio_sesion.png)
   
 - En mi caso estoy usando una cuenta educativa que me regala 100 dolares para usar
-  ![Inicio de sesion_1](./imgs/Inicio_sesion.png)
+  ![Inicio de sesion_1](./imgs/Inicio_sesion_1.png)
   
 - Una vez con la sesión iniciada la pantalla de inicio se ve de la siguiente manera. Seleccionamos maquinas virtuales
   ![Pantalla inicio](./imgs/pantalla_inicio.png)

@@ -10,32 +10,24 @@ A continuación se explican los pasos que se siguieron
   
 - En mi caso estoy usando una cuenta educativa que me regala 100 dolares para usar
   ![Inicio de sesion](./imgs/Inicio_sesion.png)
+  
+- Una vez con la sesión iniciada la pantalla de inicio se ve de la siguiente manera. Seleccionamos maquinas virtuales
+  ![Pantalla inicio](./imgs/pantalla_inicio.png)
 
+- Nos dirigirá a la siguiente página 
+  ![Pantalla inicio](./imgs/vm_inicio.png)
 
-Una vez con la sesión iniciada la pantalla de inicio se ve de la siguiente manera. Seleccionamos maquinas virtuales
+- Seleccionamos crear --> Maquina virtual de Azure
+  ![Pantalla inicio](./imgs/vm_crear.png)
 
-![Pantalla inicio](./imgs/pantalla_inicio.png)
+- Lo que sigue es configurar varios parametros de la maquina virtual, como por ejemplo la región
+  ![Conf_1](./imgs/conf_1.png)
 
-Nos dirigirá a la siguiente página 
+-Seleccionamos un sistema operativo basado en Linux en este caso Ubuntu Server
+  ![Ubuntu](./imgs/Ubuntu_2.png)
+  ![Ubuntu](./imgs/Ubuntu_1.png)
 
-![Pantalla inicio](./imgs/vm_inicio.png)
-
-Seleccionamos crear --> Maquina virtual de Azure
-
-![Pantalla inicio](./imgs/vm_crear.png)
-
-Lo que sigue es configurar varios parametros de la maquina virtual, como por ejemplo la región
-
-![Conf_1](./imgs/conf_1.png)
-
-Seleccionamos un sistema operativo basado en Linux en este caso Ubuntu Server
-
-![Ubuntu](./imgs/Ubuntu_2.png)
-
-![Ubuntu](./imgs/Ubuntu_1.png)
-
-El siguiente paso será seleccionar la Maquina Virtual a utilizar
-
-![VM seleccion](./imgs/Ubuntu_2.png)
+- El siguiente paso será seleccionar la Maquina Virtual a utilizar
+  ![VM seleccion](./imgs/Ubuntu_2.png)
 
 

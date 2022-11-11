@@ -18,7 +18,7 @@ A continuación se explican los pasos que se siguieron
   ![Pantalla inicio](./imgs/vm_inicio.png)
 
 - Seleccionamos crear --> Maquina virtual de Azure
-  ![Pantalla inicio](./imgs/vm_crear.png)
+  ![Pantalla Crear](./imgs/vm_crear.png)
 
 - Lo que sigue es configurar varios parametros de la maquina virtual, como por ejemplo la región
   ![Conf_1](./imgs/conf_1.png)
@@ -28,6 +28,6 @@ A continuación se explican los pasos que se siguieron
   ![Ubuntu](./imgs/Ubuntu_1.png)
 
 - El siguiente paso será seleccionar la Maquina Virtual a utilizar
-  ![VM seleccion](./imgs/Ubuntu_2.png)
+  ![VM seleccion](./imgs/VM_sel.png)
 
 

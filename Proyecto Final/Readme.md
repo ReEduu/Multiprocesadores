@@ -44,3 +44,23 @@ A continuación se explican los pasos que se siguieron
 - En el siguiente pasó se permite la conexión por medio de SSH, por lo que se habilita el puerto 22
 
   ![SSH](./imgs/ssh.png)
+  
+- Lo que sigue es elegir un disco duro en este caso es un SSD estandar de 30 GB. Damos click en el botón revisar y crear
+
+  ![SSH](./imgs/discos.png)
+  
+- Si la maquina virtual se creó de manerá correcta, despues de un tiempo aparecerá la siguiente pantalla
+
+  ![SSH](./imgs/vm_creada.png)
+  
+- En el siguiente pasó se permite la conexión por medio de SSH, por lo que se habilita el puerto 22
+
+  ![SSH](./imgs/ssh.png)
+  
+- En el siguiente pasó se permite la conexión por medio de SSH, por lo que se habilita el puerto 22
+
+  ![SSH](./imgs/ssh.png)
+  
+- En el siguiente pasó se permite la conexión por medio de SSH, por lo que se habilita el puerto 22
+
+  ![SSH](./imgs/ssh.png)

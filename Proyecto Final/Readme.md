@@ -51,7 +51,7 @@ A continuación se explican los pasos que se siguieron
 
 - Nos pedirá validar los datos, si todo está correcto damos click en Crear
 
-  ![SSH](./imgs/validación.png)
+  ![SSH](./imgs/validacion.png)
 
 - Si la maquina virtual se creó de manerá correcta, despues de un tiempo aparecerá la siguiente pantalla
 
@@ -75,7 +75,7 @@ A continuación se explican los pasos que se siguieron
 
   ![SSH](./imgs/consola.png)
   
-** Subir los archivos a la VM**
+**Subir los archivos a la VM**
 
 Para subir los archivos se ejecuta el siguiente comando en una terminal de la PC local
 ```
@@ -94,5 +94,10 @@ Una vez que el comando se ejecuto de forma correcta, los archivos se subirán
 
 ![Subida](./imgs/subir_archivos.png)
 
-** Ejecutar actividades **
-Actividad 
+**Ejecutar actividades**
+
+- Actividad 1.3
+- Actividad 1.4
+- Actividad 1.5
+- Actividad 2.1
+- Actividad 2.2

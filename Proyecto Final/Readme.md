@@ -70,3 +70,29 @@ A continuación se explican los pasos que se siguieron
 - Esperamos a que se cree y nos podrénos conectar a la VM introduciendo usuario y contraseña
 
   ![SSH](./imgs/bastion_connect.png)
+  
+- Nos abrirá otra pestaña con la terminal de Ubuntu
+
+  ![SSH](./imgs/consola.png)
+  
+** Subir los archivos a la VM**
+
+Para subir los archivos se ejecuta el siguiente comando en una terminal de la PC local
+```
+scp -r C:\Users\ibmor\OneDrive\Documentos\lalo\Codigos ReEdu@20.83.188.43:
+```
+La sintaxis es muy sencilla
+scp -r origen destino
+
+En este caso el origen es una carpeta de la PC local y el destino la VM, la cual se indica con el nombre_de_usuario@dirección_ip_publica. Esto se puede invertir para descargar archivos de la VM, en lugar de subirlos
+
+Si no se conoce la ip publica, esta se encuentra en la página principal de la VM 
+
+![IP](./imgs/ip.png)
+
+Una vez que el comando se ejecuto de forma correcta, los archivos se subirán
+
+![Subida](./imgs/subir_archivos.png)
+
+** Ejecutar actividades **
+Actividad 

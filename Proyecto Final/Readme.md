@@ -34,8 +34,13 @@ A continuación se explican los pasos que se siguieron
   ![Ubuntu](./imgs/Ubuntu_2.png)
   ![Ubuntu](./imgs/Ubuntu_1.png)
 
-- El siguiente paso será seleccionar la Maquina Virtual a utilizar
-
+- El siguiente paso será seleccionar la Maquina Virtual a utilizar.
+  
+  Se eligió una de las más básicas con las siguientes caracteristicas:
+  - 1 vCPU
+  - 1 GiB de RAM
   ![VM seleccion](./imgs/VM_sel.png)
 
+- En el siguiente pasó se permite la conexión por medio de SSH, por lo que se habilita el puerto 22
 
+  ![SSH](./imgs/ssh.png)

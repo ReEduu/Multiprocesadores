@@ -16,7 +16,7 @@ A continuación se explican los pasos que se siguieron
 
 - Nos dirigirá a la siguiente página 
   ![Pantalla inicio](./imgs/vm_inicio.png)
-
+  
 - Seleccionamos crear --> Maquina virtual de Azure
   ![Pantalla Crear](./imgs/vm_crear.png)
 

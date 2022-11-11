@@ -19,11 +19,11 @@ A continuación se explican los pasos que se siguieron
   
 - Seleccionamos crear --> Maquina virtual de Azure
   ![Pantalla Crear](./imgs/vm_crear.png)
-
+  
 - Lo que sigue es configurar varios parametros de la maquina virtual, como por ejemplo la región
   ![Conf_1](./imgs/conf_1.png)
 
--Seleccionamos un sistema operativo basado en Linux en este caso Ubuntu Server
+- Seleccionamos un sistema operativo basado en Linux en este caso Ubuntu Server
   ![Ubuntu](./imgs/Ubuntu_2.png)
   ![Ubuntu](./imgs/Ubuntu_1.png)
 

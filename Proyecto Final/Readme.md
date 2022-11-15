@@ -96,6 +96,20 @@ Una vez que el comando se ejecuto de forma correcta, los archivos se subirán
 
 **Ejecutar actividades**
 
+Se ejecutó cada una de las actividades tanto en la maquina virtual como en la computadora personal. A continuación se mencionan las caracteristicas de cada una  
+
+- VM
+  - 1 vCPU
+  - 1 GiB de RAM
+  - SSD
+
+- PC
+  - 12 GB de RAM
+  - 4 Nucleos
+  - Procesador Intel I7-1165G7
+  - SSD
+  
+
 - Actividad 1.3
 - Actividad 1.4
 - Actividad 1.5

@@ -121,6 +121,14 @@ Se ejecutó cada una de las actividades tanto en la maquina virtual como en la c
   
 
 - Actividad 1.3
+
+  - **PC**
+    
+    ![Hello_1](./imgs/hello_pc.png)
+    
+  - **VM**
+    
+    ![Hello_1](./imgs/hello_azure.png)
   
 - Actividad 1.4
 - Actividad 1.5

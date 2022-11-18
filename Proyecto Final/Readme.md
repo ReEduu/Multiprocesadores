@@ -207,7 +207,7 @@ Se ejecutó cada una de las actividades tanto en la maquina virtual como en la c
     
     ![Speedup](./imgs/6.png)  
     
-  Paralelizado
+   Paralelizado
   
    - **PC**
     

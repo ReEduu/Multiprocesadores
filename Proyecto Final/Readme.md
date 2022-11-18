@@ -94,6 +94,14 @@ Una vez que el comando se ejecuto de forma correcta, los archivos se subirán
 
 ![Subida](./imgs/subir_archivos.png)
 
+Si se requiere descargar los archivos generados en la VM, se ejecuta el mismo comando de forma inversa
+```
+scp -r ReEdu@20.83.188.43:~\Codigos C:\Users\ibmor\OneDrive\Documentos\lalo\Final\Resultados
+```
+Una vez ejecutado se observa el proceso de descarga
+
+![Subida](./imgs/bajar_archivos.png)
+
 ## Ejecutar actividades
 
 Se ejecutó cada una de las actividades tanto en la maquina virtual como en la computadora personal. A continuación se mencionan las caracteristicas de cada una  

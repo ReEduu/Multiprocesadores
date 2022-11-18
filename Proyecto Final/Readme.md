@@ -226,9 +226,10 @@ Se ejecutó cada una de las actividades tanto en la maquina virtual como en la c
     
     ![Speedup](./imgs/6.png)  
     
-  Paralelizado
+    
+  Paralelizado 
   
-   - **PC**
+  - **PC**
     
     ![Subida](./imgs/blurr_2_pc.png)  
     
@@ -243,7 +244,6 @@ Se ejecutó cada una de las actividades tanto en la maquina virtual como en la c
     ![Speedup](./imgs/7.png)  
     
     
-
 ## Conclusiones
 
 Podemos observar que contrario a lo pensado (que la PC siempre tenga mejores tiempos) la VM resulta obtener mejores resultados en algunos programas, sin embargo la diferencia no llega a ser mucha, esto se puede deber a que la VM no está ejecutando un entorno gráfico, con lo cual se consumen menos recursos, además debemos tomar en cuenta que la VM ejecuta linux y eso tambien puede influir en el rendimiento. Tambien me gustaría resaltar que en el programa de blurring, la VM no denota diferencia entre ejecutar el programa en paralelo o secuencial, cosa que sí se nota en la PC,esto se debe seguramente a que la VM unicamente tiene un nucleo con lo cual no tiene caso paralelizar los programas

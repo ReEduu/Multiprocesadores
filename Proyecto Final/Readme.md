@@ -128,7 +128,7 @@ Se ejecutó cada una de las actividades tanto en la maquina virtual como en la c
     
   - **VM**
     
-    ![Hello_1](./imgs/hello_azure.png)
+    ![Hello_2](./imgs/hello_azure.png)
 
   - **SpeedUp**
     

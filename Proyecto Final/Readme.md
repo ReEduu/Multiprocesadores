@@ -139,17 +139,20 @@ Se ejecutó cada una de las actividades tanto en la maquina virtual como en la c
     $speedup = 0.1900$ 
     
     Integrall 
+    
     $speedup = \frac{0.0036}{0.0140}$  
     
     $speedup = 0.2571$ 
     
     
     Euler (Disco duro)
+    
     $speedup = \frac{6.0906}{4.1230}$  
     
     $speedup = 1.477$ 
     
     Euler (RAM)
+    
     $speedup = \frac{0.304421}{1.0750}$  
     
     $speedup = 0.2831$ 
@@ -161,12 +164,14 @@ Se ejecutó cada una de las actividades tanto en la maquina virtual como en la c
     
     
     Blurring (No parallel)
-    $speedup = \frac{3.9045}{3.3230$}  
+    
+    $speedup = \frac{3.9045}{3.3230}$  
     
     $speedup = 1.1749$ 
     
     
     Blurring (Parallel)
+    
     $speedup = \frac{3.8942}{1.1710}$  
     
     $speedup = 3.3343$ 

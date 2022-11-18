@@ -90,7 +90,7 @@ Si no se conoce la ip publica, esta se encuentra en la página principal de la V
 
 ![IP](./imgs/ip.png)
 
-Una vez que el comando se ejecuto de forma correcta, los archivos se subirán
+Una vez que el comando se ejecutó de forma correcta, los archivos se subirán
 
 ![Subida](./imgs/subir_archivos.png)
 

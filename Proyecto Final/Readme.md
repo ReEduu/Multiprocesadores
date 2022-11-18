@@ -134,7 +134,7 @@ Se ejecutó cada una de las actividades tanto en la maquina virtual como en la c
     
     $speedup = \frac{0.0140}{0.2120}$
     
-    $speedup = = 0.066$
+    $speedup = 0.066$
     
   
 - Actividad 1.4

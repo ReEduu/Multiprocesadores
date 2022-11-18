@@ -3,7 +3,7 @@
 Para el siguiente proyecto se configuró Ubuntu en una maquina virtual de un servicio en la nube, en este caso Azure, esto con el objetivo de ejecutar las actividades en las que está involucrado fopenmp, siendo estas las actividades 1.3, 1.4, 1.5, 2.1 y 2.2, para finalmente comparar los resultados obtenidos con los del equipo personal.  
 A continuación se explican los pasos que se siguieron
 
-**Configuración de VM en Azure**
+## Configuración de VM en Azure
 
 - Entramos a portal.azure.com e iniciamos sesión
 
@@ -102,16 +102,25 @@ Se ejecutó cada una de las actividades tanto en la maquina virtual como en la c
   - 1 vCPU
   - 1 GiB de RAM
   - SSD
+  - Ubuntu Server 
 
 - PC
   - 12 GB de RAM
   - 4 Nucleos
   - Procesador Intel I7-1165G7
   - SSD
+  - Windows
   
 
 - Actividad 1.3
+  
 - Actividad 1.4
 - Actividad 1.5
 - Actividad 2.1
 - Actividad 2.2
+
+**Conclusiones**
+
+Podemos observar que la PC casi siempre tuvo mejores tiempos que la VM, lo cual es esperable ya que cuenta con mejores caracteristicas, sin embargo realmente la diferencia no es tanta, esto se puede deber a que la VM no está ejecutando un entorno gráfico, con lo cual se consumen menos recursos, además debemos tomar en cuenta que la VM ejecuta linux y eso tambien puede influir en el rendimiento.  
+
+Respecto a la configuración de la VM en Azure, 

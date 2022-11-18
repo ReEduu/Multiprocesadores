@@ -197,6 +197,6 @@ Se ejecutó cada una de las actividades tanto en la maquina virtual como en la c
 
 ## Conclusiones
 
-Podemos observar que la PC casi siempre tuvo mejores tiempos que la VM, lo cual es esperable ya que cuenta con mejores caracteristicas, sin embargo realmente la diferencia no es tanta, esto se puede deber a que la VM no está ejecutando un entorno gráfico, con lo cual se consumen menos recursos, además debemos tomar en cuenta que la VM ejecuta linux y eso tambien puede influir en el rendimiento.  
+Podemos observar que contrario a lo pensado (que la PC siempre tenga mejores tiempos) la VM resulta obtener mejores resultados en algunos programas, sin embargo la diferencia no llega a ser mucha, esto se puede deber a que la VM no está ejecutando un entorno gráfico, con lo cual se consumen menos recursos, además debemos tomar en cuenta que la VM ejecuta linux y eso tambien puede influir en el rendimiento. Tambien me gustaría resaltar que en el programa de blurring, la VM no denota diferencia entre ejecutar el programa en paralelo o secuencial, cosa que sí se nota en la PC,esto se debe seguramente a que la VM unicamente tiene un nucleo con lo cual no tiene caso paralelizar los programas
 
 Respecto a la configuración de la VM en Azure, 

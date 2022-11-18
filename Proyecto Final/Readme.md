@@ -124,13 +124,14 @@ Se ejecutó cada una de las actividades tanto en la maquina virtual como en la c
 
   - **PC**
     
-    ![Subida](./imgs/bajar_archivos.png)
+    ![Subida](./imgs/hello_pc.png)
     
   - **VM**
   
-    ![Subida](./imgs/bajar_archivos.png)
+    ![Subida](./imgs/hello_azure.png)
     
-  
+  - **SpeedUp**
+    
 - Actividad 1.4
 - Actividad 1.5
 - Actividad 2.1

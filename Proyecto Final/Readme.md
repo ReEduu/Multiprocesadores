@@ -243,7 +243,20 @@ Se ejecutó cada una de las actividades tanto en la maquina virtual como en la c
     
     ![Speedup](./imgs/7.png)  
     
-    
+## Resultados
+
+Los resultados obtenidos se pueden observar de mejor manera en la siguiente tabla:
+
+| Actividad | Programa               | Tiempo (PC) | Tiempo (Azure) |
+|-----------|------------------------|-------------|----------------|
+| 1.3       | Hello                  | 0.2120      | 0.04033        |
+| 1.4, 1.5  | Integrall              | 0.0140      | 0.0036         |
+| 1.5       | Euler(Disco Duro)      | 4.1230      | 6.0906         |
+| 1.5       | Euler (RAM)            | 1.0750      | 0.3044         |
+| 2.1       | Flip Image             | 8.7680      | 0.0536         |
+| 2.2       | Blurring (No Parallel) | 3.3230      | 3.9045         |
+| 2.2       | Blurring (Parallel)    | 1.1710      | 3.8942         |
+
 ## Conclusiones
 
 Podemos observar que contrario a lo pensado (que la PC siempre tenga mejores tiempos) la VM resulta obtener mejores resultados en algunos programas, sin embargo la diferencia no llega a ser mucha, esto se puede deber a que la VM no está ejecutando un entorno gráfico, con lo cual se consumen menos recursos, además debemos tomar en cuenta que la VM ejecuta linux y eso tambien puede influir en el rendimiento. Tambien me gustaría resaltar que en el programa de blurring, la VM no denota diferencia entre ejecutar el programa en paralelo o secuencial, cosa que sí se nota en la PC,esto se debe seguramente a que la VM unicamente tiene un nucleo con lo cual no tiene caso paralelizar los programas

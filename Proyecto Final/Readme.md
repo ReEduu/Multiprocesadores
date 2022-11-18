@@ -134,9 +134,7 @@ Se ejecutó cada una de las actividades tanto en la maquina virtual como en la c
 
     Los resultados del SpeedUp de la PC se muestran a continuación. 
         
-    $speedup = \frac{0.0140}{0.2120}$  
     
-    $speedup = 0.066$
     
 - Actividad 1.4
 - Actividad 1.5

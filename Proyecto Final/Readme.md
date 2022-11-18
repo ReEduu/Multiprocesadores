@@ -57,7 +57,7 @@ A continuación se explican los pasos que se siguieron
 
   ![SSH](./imgs/vm_creada.png)
  
-**Conexión a la VM**
+## Conexión a la VM
   
 - Seleccionamos conectar --> Bastion. Ya que es una de las formas más sencillas de conectarse
 
@@ -75,7 +75,7 @@ A continuación se explican los pasos que se siguieron
 
   ![SSH](./imgs/consola.png)
   
-**Subir los archivos a la VM**
+## Subir los archivos a la VM
 
 Para subir los archivos se ejecuta el siguiente comando en una terminal de la PC local
 ```
@@ -94,7 +94,7 @@ Una vez que el comando se ejecuto de forma correcta, los archivos se subirán
 
 ![Subida](./imgs/subir_archivos.png)
 
-**Ejecutar actividades**
+## Ejecutar actividades
 
 Se ejecutó cada una de las actividades tanto en la maquina virtual como en la computadora personal. A continuación se mencionan las caracteristicas de cada una  
 
@@ -119,7 +119,7 @@ Se ejecutó cada una de las actividades tanto en la maquina virtual como en la c
 - Actividad 2.1
 - Actividad 2.2
 
-**Conclusiones**
+## Conclusiones
 
 Podemos observar que la PC casi siempre tuvo mejores tiempos que la VM, lo cual es esperable ya que cuenta con mejores caracteristicas, sin embargo realmente la diferencia no es tanta, esto se puede deber a que la VM no está ejecutando un entorno gráfico, con lo cual se consumen menos recursos, además debemos tomar en cuenta que la VM ejecuta linux y eso tambien puede influir en el rendimiento.  
 

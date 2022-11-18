@@ -134,19 +134,53 @@ Se ejecutó cada una de las actividades tanto en la maquina virtual como en la c
 
     Los resultados del SpeedUp de la PC se muestran a continuación. 
         
-    $speedup = \frac{0.0140}{0.2120}$  a
+    $speedup = \frac{0.0403}{0.2120}$  a
     
-    $speedup = 0.066$   
+    $speedup = 0.1900$ 
+    
+    Integrall 
+    $speedup = \frac{0.0036}{0.0140}$  a
+    
+    $speedup = 0.2571$ 
+    
+    
+    Euler (Disco duro)
+    $speedup = \frac{6.0906}{4.1230}$  a
+    
+    $speedup = 1.477$ 
+    
+    Euler (RAM)
+    $speedup = \frac{0.304421}{1.0750}$  a
+    
+    $speedup = 0.2831$ 
+    
+    
+    $speedup = \frac{0.05362}{8.7680}$  a
+    
+    $speedup = 6.115x10^-3$ 
+    
+    
+    Blurring (No parallel)
+    $speedup = \frac{3.9045}{3.3230$  a
+    
+    $speedup = 1.1749$ 
+    
+    
+    Blurring (Parallel)
+    $speedup = \frac{3.8942}{1.1710}$  a
+    
+    $speedup = 3.3343$ 
+    
     
 - Actividad 1.4
   
   - **PC**
     
-    ![Subida](./imgs/hello_pc.png)  
+    ![Subida](./imgs/integrall_parallel_pc.png)  
     
   - **VM**
   
-    ![Subida](./imgs/hello_azure.png)  
+    ![Subida](./imgs/integrall_parallel_azure.png)  
     
   - **SpeedUp**
 

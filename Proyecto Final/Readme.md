@@ -156,20 +156,39 @@ Se ejecutó cada una de las actividades tanto en la maquina virtual como en la c
   
 
 - Actividad 1.5
+  
+  Euler (Disco duro)
 
   - **PC**
     
-    ![Subida](./imgs/integrall_parallel_pc.png)  
+    ![Subida](./imgs/euler_pc.png)  
     
   - **VM**
   
-    ![Subida](./imgs/integrall_parallel_azure.png)  
+    ![Subida](./imgs/euler_azure.png)  
     
   - **SpeedUp**
 
     Los resultados del SpeedUp de la PC se muestran a continuación. 
     
-    ![Speedup](./imgs/2.png)  
+    ![Speedup](./imgs/3.png)
+    
+    
+  Euler (RAM)
+
+  - **PC**
+    
+    ![Subida](./imgs/euler_arr_pc.png)  
+    
+  - **VM**
+  
+    ![Subida](./imgs/euler_arr_azure.png)  
+    
+  - **SpeedUp**
+
+    Los resultados del SpeedUp de la PC se muestran a continuación. 
+    
+    ![Speedup](./imgs/4.png)
     
   
 - Actividad 2.1
@@ -207,7 +226,7 @@ Se ejecutó cada una de las actividades tanto en la maquina virtual como en la c
     
     ![Speedup](./imgs/6.png)  
     
-   Paralelizado
+  Paralelizado
   
    - **PC**
     

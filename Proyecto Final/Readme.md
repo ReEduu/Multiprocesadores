@@ -153,10 +153,77 @@ Se ejecutó cada una de las actividades tanto en la maquina virtual como en la c
     Los resultados del SpeedUp de la PC se muestran a continuación. 
     
     ![Speedup](./imgs/2.png)  
+  
 
 - Actividad 1.5
+
+  - **PC**
+    
+    ![Subida](./imgs/integrall_parallel_pc.png)  
+    
+  - **VM**
+  
+    ![Subida](./imgs/integrall_parallel_azure.png)  
+    
+  - **SpeedUp**
+
+    Los resultados del SpeedUp de la PC se muestran a continuación. 
+    
+    ![Speedup](./imgs/2.png)  
+    
+  
 - Actividad 2.1
+  
+  - **PC**
+    
+    ![Subida](./imgs/flip_pc.png)  
+    
+  - **VM**
+  
+    ![Subida](./imgs/flip_azure.png)  
+    
+  - **SpeedUp**
+
+    Los resultados del SpeedUp de la PC se muestran a continuación. 
+    
+    ![Speedup](./imgs/5.png)  
+    
+  
 - Actividad 2.2
+  
+  Sin paralelizar 
+  
+  - **PC**
+    
+    ![Subida](./imgs/blurr_1_pc.png)  
+    
+  - **VM**
+  
+    ![Subida](./imgs/blurr_1_azure.png)  
+    
+  - **SpeedUp**
+
+    Los resultados del SpeedUp de la PC se muestran a continuación. 
+    
+    ![Speedup](./imgs/6.png)  
+    
+  Paralelizado
+  
+   - **PC**
+    
+    ![Subida](./imgs/blurr_2_pc.png)  
+    
+  - **VM**
+  
+    ![Subida](./imgs/blurr_2_azure.png)  
+    
+  - **SpeedUp**
+
+    Los resultados del SpeedUp de la PC se muestran a continuación. 
+    
+    ![Speedup](./imgs/7.png)  
+    
+    
 
 ## Conclusiones
 
